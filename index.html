@@ -1,0 +1,58 @@
+<div id="texts">
+  <h1 id="title">About you</h1>
+  <p id="description">Answer de survey about yout tastes.</p>
+</div>
+<hr>
+<main>
+   
+  <form id="survey-form" submit="">
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" placeholder="Insert your name" required><br>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" placeholder="Insert your email" required><br>
+    <label id="number-label" for="number">Your favorite number between 1 and 2</label>
+    <input id="number" type="number" placeholder="Insert your favorite number" min="1" max="2" required><br>
+  
+    <label for="dropdown">Choose your favorite One Piece character:</label>
+    <select id="dropdown" name="onePieceCharacters">
+      <option value="luffy">Luffy</option>
+      <option value="zoro">Zoro</option>
+      <option value="nami">Nami</option>
+      <option value="usopp">Usopp</option>
+      <option value="sanji">Sanji</option>
+      <option value="chopper">Chopper</option>
+      <option value="robin">Robin</option>
+      <option value="franky">Franky</option>
+      <option value="brook">Brook</option>
+      <option value="jimbe">Jimbe</option>
+    </select><br>
+  
+    <fieldset id="pkm">
+      <legend>Choose the better pokémon</legend>
+      <input type="radio" id="bulbassauro" name="pokemon" value="Bulbassauro"</input>
+      <label for="bulbassauro">Bulbassauro</label>
+      <input type="radio" id="squirtle" name="pokemon" value="Squirtle"></input>
+      <label for="squirtle">Squirtle</label>
+      <input type="radio" id="charmander" name="pokemon" value="Charmander"></input>
+      <label for="charmander">Charmander</label>
+    </fieldset><br>
+
+    <fieldset>
+      <legend>Choose your favorites colors</legend>
+      <input id="red-check" type="checkbox" value="red" name="color"></input>
+      <label for="red-check">Red</label><br>
+      <input id="blue-check" type="checkbox" value="blue" name="color"></input>
+      <label for="blue-check">Blue</label><br>
+      <input id="yellow-check" type="checkbox" value="yellow" name="color"></input>
+      <label for="yellow-check">Yellow</label><br>
+      <input id="pink-check" type="checkbox" value="pink" name="color"></input>
+      <label for="pink-check">Pink</label><br>
+      <input id="none-check" type="checkbox" value="none" name="color"></input>
+      <label for="none-check">None of the above.</label><br>
+    </fieldset><br>
+  
+    <label id="feed-label" for="feedback">Tell us your ideas.</label>
+    <input type="text" id="feedback"></input><br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</main>
